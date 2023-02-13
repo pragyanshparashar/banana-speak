@@ -3,16 +3,16 @@
 .body {
     margin: 0;
     padding: 0;
-    background: rgb(230, 231, 237);
+    background: rgb(180, 186, 220);
     font-family: 'Carter One', cursive;
 }
 
 
 .head {
     font-size: larger;
-    background-color: #d5ae0fe9;
+    background-color: #d2d50fe9;
     padding: 2px;
-    color: #0f172a;
+    color: #303041;
     text-align: center;
     box-shadow: 1px 2px 2px 2px gray;
 }
@@ -22,7 +22,6 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    /* justify-content: flex-end;  */
 }
 
 .image {
@@ -32,29 +31,31 @@
     border-radius: 30%;
     box-sizing: border-box;
     box-shadow: 2px 3px 5px 2px rgb(124, 101, 105);
-    /* object-fit: cover; */
     
 }
 
 .bttn {
-    align-self: center;
     padding: 8px;
+    margin:auto;
     font-weight: 1000;
     width: 100%;
     cursor: pointer;
+    color:rgb(109, 95, 98);
     border-radius: 20px;
+    margin:auto;
+    margin-left: 30px;
 }
 
 .inputfield {
     padding: 20px;
-    font-size: x-large;
+    font-size: 20px;
     margin-bottom: 20px;
     margin-top: 20px;
-    width: 500px;
-    background-color: lightblue;
+    width: 100%;
+    background-color: rgb(189, 224, 148);
     height: 100px;
     border-radius: 20px;
-    color: #0f172a;
+    color: #0b1306;
     box-shadow: 2px 3px 5px 3px gray;
 }
 
@@ -65,14 +66,6 @@ textarea{
     outline: none;
 }
 
-.put {
-    border: 1px solid #475569;
-    margin-bottom: 10px;
-    padding: 8px;
-    border-radius: 20px;
-    text-align:center
-}   
-
 
 .image:hover {
     cursor: pointer;
@@ -80,5 +73,7 @@ textarea{
 }
 
 .bttn:hover{
-    background-color:red
+    background-color:rgb(180, 186, 220);
+    color: white;
 }
+
