@@ -1,15 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
 .body {
     margin: 0;
     padding: 0;
-    background-color: #facc15;
-    background-image: url(images/minion3.jpg);
-    background-size: cover;
+    background: rgb(230, 231, 237);
+    font-family: 'Carter One', cursive;
 }
 
+
 .head {
-    background-color: #facc15;
+    font-size: larger;
+    background-color: #d5ae0fe9;
     padding: 2px;
     color: #0f172a;
     text-align: center;
     box-shadow: 1px 2px 2px 2px gray;
+}
+
+.flexbox-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* justify-content: flex-end;  */
+}
+
+.image {
+    margin-top: 80px;
+    width: 700px;
+    height: 500px;
+    border-radius: 30%;
+    box-sizing: border-box;
+    box-shadow: 2px 3px 5px 2px rgb(124, 101, 105);
+    /* object-fit: cover; */
+    
+}
+
+.bttn {
+    align-self: center;
+    padding: 8px;
+    font-weight: 1000;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.inputfield {
+    padding: 20px;
+    font-size: x-large;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 500px;
+    background-color: lightblue;
+    height: 100px;
+    border-radius: 20px;
+    color: #0f172a;
+    box-shadow: 2px 3px 5px 3px gray;
+}
+
+
+textarea{
+    border: none;
+    overflow: auto;
+    outline: none;
+}
+
+.put {
+    border: 1px solid #475569;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 20px;
+    text-align:center
+}   
+
+
+.image:hover {
+    cursor: pointer;
+    box-shadow: 2px 3px 4px 4px rgb(109, 95, 98);
+}
+
+.bttn:hover{
+    background-color:red
 }
