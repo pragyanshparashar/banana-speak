@@ -23,7 +23,7 @@ function clickhandler() {
     .then(response => response.json())
     .then(json => {
       console.log(json)
-      var translatedText = jsoq1n.contents.translated;
+      var translatedText = json.contents.translated;
       outputdiv.innerText = translatedText;
     })
     .catch(errorhandler)
